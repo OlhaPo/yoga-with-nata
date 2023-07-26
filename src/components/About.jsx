@@ -8,7 +8,7 @@ const About = () => {
       <div className="flex flex-col md:flex-row justify-center items-center gap-0 md:gap-14 pb-10 md:pb-20">
         <div className="flex-1 md:flex-2">
           <h1 className="text-[22px] text-center mb-5 md:text-left md:text-[30px] font-bold text-[#9C0E5B]">
-            Cześć! Nazywam się Natalia Wysocka
+            Cześć! Nazywam się Natalia&nbsp;Wysocka
           </h1>
           <p className="text-sm pb-10 md:pb-0 text-justify md:text-md leading-[29px]">
             Jestem sertifikowaną instruktorką z jogi. Przyjechałam z Ukrainy, z
