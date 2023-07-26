@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
         <div className="flex md:inline-flex items-center gap-1 flex-2">
           <BiPhoneCall className="text-[#9C0E5B]" />
-          +48721448339
+          <a href="tel:+48721448339">+48721448339</a>{" "}
         </div>
         <div className="flex md:inline-flex items-center gap-1 flex-2">
           <FiMail className="text-[#9C0E5B]" />
