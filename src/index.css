@@ -11,5 +11,5 @@ body {
 }
 
 .nav-menu a {
-  @apply cursor-pointer text-md pb-5 md:pb-10 md:pl-10 uppercase hover:underline hover:text-[#9C0E5B];
+  @apply cursor-pointer text-[22px] pb-5 md:pb-10 md:pl-10 uppercase hover:underline hover:text-[#9C0E5B];
 }
