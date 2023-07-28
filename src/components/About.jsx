@@ -5,7 +5,7 @@ import nataCover from "/images/yoga-nata-1.jpg";
 const About = () => {
   return (
     <div className="md:w-[80%] m-auto px-4" id="about">
-      <div className="flex flex-col md:flex-row justify-center items-center gap-0 md:gap-14 pb-5">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-0 md:gap-14 pb-5 md:pb-10">
         <div className="flex-1 md:flex-2">
           <h1 className="text-[22px] text-center mb-2 md:text-left md:text-[30px] font-bold text-[#9C0E5B]">
             Cześć! Nazywam się Natalia&nbsp;Wysocka
