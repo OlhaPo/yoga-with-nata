@@ -8,16 +8,14 @@ import GalleyImages from "./GalleryImages";
 const Classes = () => {
   return (
     <div className="md:w-[80%] m-auto px-4" id="zajęcia">
-      <h2 className="text-[28px] font-bold text-center mb-5 pt-10 md:pt-20 text-[#9C0E5B]">
+      <h2 className="text-[28px] font-bold text-center mb-2 pt-5 md:pt-10 text-[#9C0E5B]">
         Zajęcia
       </h2>
-      <p className="pb-10 md:pb-20 text-justify md:text-center text-sm md:text-md leading-[29px]">
+      <p className="pb-5 md:pb-10 text-justify md:text-center text-sm md:text-md leading-[29px]">
         Teraz prowadzę zajęcia z jogi w Bielsku-Białej i jestem otwarta na
         współpracę ze studiami oraz klubami. Również proponuję "out-of-office"
         jogę w biurach ta indywidualne zajęcia.
       </p>
-
-      {/* <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-10 md:items-center"> */}
 
       <GalleyImages
         options={{
@@ -45,37 +43,6 @@ const Classes = () => {
           <img alt="" src={yogaLesson2} className="gallery-image" />
         </a>
       </GalleyImages>
-      {/* </div> */}
-      {/* <img
-          src={yogaLesson2}
-          alt=""
-          className="rounded-md md:shadow-2xl md:shadow-gray-400 h-full object-cover"
-        />
-        <img
-          src={yogaNata}
-          alt=""
-          className="rounded-md md:shadow-2xl md:shadow-gray-400 h-full object-cover"
-        />
-        <img
-          src={yogaLesson}
-          alt=""
-          className="rounded-md md:shadow-2xl md:shadow-gray-400 h-full object-cover"
-        />
-        <img
-          src={yogaLesson4}
-          alt=""
-          className="rounded-md md:shadow-2xl md:shadow-gray-400 h-full object-cover"
-        />
-        <img
-          src={yogaLesson}
-          alt=""
-          className="rounded-md md:shadow-2xl md:shadow-gray-400 h-full object-cover"
-        />
-        <img
-          src={yogaLesson2}
-          alt=""
-          className="rounded-md md:shadow-2xl md:shadow-gray-400 h-full object-cover"
-        /> */}
     </div>
   );
 };

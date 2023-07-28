@@ -25,7 +25,7 @@ const Navbar = () => {
       <button className="absolute top-3 right-4 md:top-3 md:right-4 md:hidden hover:scale-130 ease-in duration-200 mb-5 hover:text-[#9C0E5B]">
         <FiMenu size={22} onClick={handleNav} />
       </button>
-      <div className="pt-[33px] pb-[12px] md:pt-[12px] md:pb-[12px] flex flex-row border-b-2 justify-center md:justify-between px-20 items-center text-[18px] mb-10 md:mb-20">
+      <div className="pt-[33px] pb-[12px] md:pt-[12px] md:pb-[12px] flex flex-row border-b-2 justify-center md:justify-between px-20 items-center text-[18px] mb-10">
         <img
           src="./yoga-logo.jpg"
           alt="Joga z NatOM"

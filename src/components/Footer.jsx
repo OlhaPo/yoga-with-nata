@@ -6,7 +6,7 @@ import { GoLocation } from "react-icons/go";
 const Footer = () => {
   return (
     <div
-      className="flex flex-col md:flex-row border-t-2 text-[14px] md:text-[17px] justify-around items-center pt-6 pb-2 md:py-6 mt-10 md:mt-20"
+      className="flex flex-col md:flex-row border-t-2 text-[14px] md:text-[17px] justify-around items-center pt-6 pb-2 md:py-6 mt-10"
       id="contact"
     >
       <div className="inline-flex text-md md:text-[20px] items-center gap-1 pb-2 md:pb-0 text-[#9C0E5B] font-bold">
