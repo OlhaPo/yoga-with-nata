@@ -1,8 +1,9 @@
+import yogaLesson from "/images/yoga-lesson.jpg";
+import yogaLesson2 from "/images/yoga-lesson-2.jpg";
+import yogaLesson4 from "/images/yoga-lesson-4.jpg";
+import yogaNata from "/images/yoga-nata-2.jpg";
 import React from "react";
-import yogaLesson from "./images/yoga-lesson.jpg";
-import yogaLesson2 from "./images/yoga-lesson-2.jpg";
-import yogaLesson4 from "./images/yoga-lesson-4.jpg";
-import yogaNata from "./images/yoga-nata-2.jpg";
+import GalleyImages from "./GalleryImages";
 
 const Classes = () => {
   return (
@@ -15,8 +16,37 @@ const Classes = () => {
         współpracę ze studiami oraz klubami. Również proponuję "out-of-office"
         jogę w biurach ta indywidualne zajęcia.
       </p>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-10 md:items-center">
-        <img
+
+      {/* <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-10 md:items-center"> */}
+
+      <GalleyImages
+        options={{
+          Carousel: {
+            infinite: false,
+          },
+        }}
+      >
+        <a data-fancybox="gallery" href={yogaLesson2}>
+          <img alt="" src={yogaLesson2} className="gallery-image" />
+        </a>
+        <a data-fancybox="gallery" href={yogaNata}>
+          <img alt="" src={yogaNata} className="gallery-image" />
+        </a>
+        <a data-fancybox="gallery" href={yogaLesson}>
+          <img alt="" src={yogaLesson} className="gallery-image" />
+        </a>
+        <a data-fancybox="gallery" href={yogaLesson4}>
+          <img alt="" src={yogaLesson4} className="gallery-image" />
+        </a>
+        <a data-fancybox="gallery" href={yogaLesson}>
+          <img alt="" src={yogaLesson} className="gallery-image" />
+        </a>
+        <a data-fancybox="gallery" href={yogaLesson2}>
+          <img alt="" src={yogaLesson2} className="gallery-image" />
+        </a>
+      </GalleyImages>
+      {/* </div> */}
+      {/* <img
           src={yogaLesson2}
           alt=""
           className="rounded-md md:shadow-2xl md:shadow-gray-400 h-full object-cover"
@@ -45,8 +75,7 @@ const Classes = () => {
           src={yogaLesson2}
           alt=""
           className="rounded-md md:shadow-2xl md:shadow-gray-400 h-full object-cover"
-        />
-      </div>
+        /> */}
     </div>
   );
 };

@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Set the width and height of the images in the gallery */
+.gallery-image {
+  width: 100%;
+  height: auto;
+}
+
 * {
   scroll-behavior: smooth;
 }

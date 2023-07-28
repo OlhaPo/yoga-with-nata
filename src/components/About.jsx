@@ -1,6 +1,6 @@
 import React from "react";
-import yogaNataRoksi from "./images/yoga-nata-roksi.jpg";
-import nataCover from "./images/yoga-nata-1.jpg";
+import yogaNataRoksi from "/images/yoga-nata-roksi.jpg";
+import nataCover from "/images/yoga-nata-1.jpg";
 
 const About = () => {
   return (
@@ -22,7 +22,7 @@ const About = () => {
           <img
             src={yogaNataRoksi}
             alt=""
-            className="rounded-md shadow-2xl shadow-gray-400 border border-slate-400"
+            className="shadow-2xl shadow-gray-400 border border-slate-400"
           />
         </div>
       </div>
@@ -31,7 +31,7 @@ const About = () => {
           <img
             src={nataCover}
             alt=""
-            className="rounded-md shadow-2xl shadow-gray-400 border border-slate-400"
+            className="shadow-2xl shadow-gray-400 border border-slate-400"
           />
         </div>
         <div className="flex-1 md:flex-2">
