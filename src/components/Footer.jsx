@@ -22,7 +22,7 @@ const Footer = () => {
       <div className="flex flex-col items-center md:flex-row gap-1 md:gap-6 md:text-[16px]">
         <div className="flex md:inline-flex items-center gap-1 flex-2">
           <GoLocation className="text-[#9C0E5B]" />
-          Bielsko- Biała, Polska
+          Bielsko-Biała, Polska
         </div>
         <div className="flex md:inline-flex items-center gap-1 flex-2">
           <BiPhoneCall className="text-[#9C0E5B]" />

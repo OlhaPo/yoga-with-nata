@@ -8,7 +8,7 @@ import GalleyImages from "./GalleryImages";
 const Classes = () => {
   return (
     <div className="md:w-[80%] m-auto px-4" id="zajęcia">
-      <h2 className="text-[28px] font-bold text-center mb-2 pt-5 md:pt-10 text-[#9C0E5B]">
+      <h2 className="text-[28px] text-center mb-2 pt-5 md:pt-10 text-[#9C0E5B]">
         Zajęcia
       </h2>
       <p className="pb-5 md:pb-10 text-justify md:text-center text-sm md:text-md leading-[29px]">
